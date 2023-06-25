@@ -23,7 +23,7 @@ export default function Navbar() {
           <li class="nav-item">
             <a class="nav-link" href="/Contact"><h3>Contact</h3></a>
           </li>
-          <li class="nav-item dropdown">
+          {/*<li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false"><h3>Dropdown</h3>
             </a>
           <ul class="dropdown-menu">
@@ -32,7 +32,7 @@ export default function Navbar() {
             <li><hr class="dropdown-divider"/></li>
             <li><a class="dropdown-item" href="/">Something else here</a></li>
           </ul>
-        </li>
+  </li>*/}
        
       </ul>
       <form class="d-flex" role="search">
