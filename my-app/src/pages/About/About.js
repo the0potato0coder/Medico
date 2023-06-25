@@ -3,8 +3,17 @@ import './About.css';
 
 export default function About() {
   return (
-    <div>
-        <p className=''>
+    <>
+
+    <section class="about" id="about">
+    <div class="about-img">
+        <img src="Med2.jpg" alt=""/>
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">About <span>US</span></h2>
+        
+        <p>
         Medico is the premium expert opinion platform that provides users (Global Indians or anyone away from their hometown) with personalized advice and guidance on important matters.
         </p>
         <p>
@@ -16,6 +25,14 @@ export default function About() {
         <p>
         Medico team's human-centric approach emphasizes compassion and care, ensuring that individuals receive support at the earliest. To provide a seamless experience, they offer case managers who help users even if it requires in-person consultations. The Medico experts offer personalized guidance tailored to the user's unique needs and circumstances. By leveraging the competence of human professionals, Medico bridges the gap between specialized knowledge and actionable next steps.
         </p>
+        <a href="/" class="btn">Read More</a>
     </div>
+</section>
+
+    <div>
+
+        
+    </div>
+    </>
   )
 }
