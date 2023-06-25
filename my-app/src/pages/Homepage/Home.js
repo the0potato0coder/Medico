@@ -5,6 +5,7 @@ import './home.css';
 export default function Home() {
   return (
     <>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
     <body>
       <section class="home" id="home">

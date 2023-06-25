@@ -29,8 +29,13 @@ export default function About() {
     </div>
 </section>
 
-    <div>
 
+   <div class="vison-container">
+            <div class="vison-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Our Vison</h3>
+                <p>Our vision is to be the premier online platform, enabling individuals to consult verified experts for valuable insights and personalized guidance before making important decisions.</p>
+                </div>
         
     </div>
     </>
