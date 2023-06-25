@@ -39,3 +39,8 @@
     margin-top: 2rem;
     cursor: pointer;
 }
+
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+}

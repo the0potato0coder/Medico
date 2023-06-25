@@ -25,6 +25,11 @@ html{
 
 }
 
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
 body{
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -41,13 +46,6 @@ body{
 
 }
 
-.class{
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 50px;
-height: 50%;
-}
 
 .home {
     display: flex;
@@ -68,8 +66,8 @@ height: 50%;
 
 .home-img img {
     padding: 2rem;
-    width: 40vw;
-    height: 55vh;
+    width: 35vw;
+    
 
 }
 
@@ -129,10 +127,6 @@ span{
 }
 
 .who{
-    
-    justify-content: center;
-    
-    
-    
-   
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
 }

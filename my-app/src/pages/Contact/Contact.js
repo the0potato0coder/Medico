@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Contact.css';
 
 export default function Contact() {
   return (
     <>
-    <div>
+    
        <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
+        <h2 class="heading"> Contact <span>Us</span></h2>
 
         <form action="#">
             <div class="input-box">
@@ -22,7 +23,7 @@ export default function Contact() {
             <input type="submit" value="Send Message" class="btn"/>
         </form>
     </section>
-    </div>
+    
 </>
   )
 }

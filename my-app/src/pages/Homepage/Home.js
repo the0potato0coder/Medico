@@ -19,10 +19,11 @@ export default function Home() {
             <a href="/"><i class='bx bxl-linkedin' ></i></a>
           </div>
             <a href="/" class="btn">Book Now Doctors and Therapists</a>
+            </div>
             <div class="home-img" >
               <img src="./images/Med.jpg"  alt="..." ></img>
             </div>        
-        </div>
+        
        
       </section>
 
