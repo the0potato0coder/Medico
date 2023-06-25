@@ -25,19 +25,25 @@ export default function About() {
         <p>
         Medico team's human-centric approach emphasizes compassion and care, ensuring that individuals receive support at the earliest. To provide a seamless experience, they offer case managers who help users even if it requires in-person consultations. The Medico experts offer personalized guidance tailored to the user's unique needs and circumstances. By leveraging the competence of human professionals, Medico bridges the gap between specialized knowledge and actionable next steps.
         </p>
-        <a href="/" class="btn">Read More</a>
+        <a href="/Contact" class="btn">Contact Us</a>
     </div>
 </section>
 
-
+<section class="services" id="services">
    <div class="vison-container">
             <div class="vison-box">
                 <i class='bx bx-code-alt'></i>
                 <h3>Our Vison</h3>
                 <p>Our vision is to be the premier online platform, enabling individuals to consult verified experts for valuable insights and personalized guidance before making important decisions.</p>
                 </div>
+                <div class="vison-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Our Mission</h3>
+                <p>Empowering a million lives through informed decision-making for a better future.</p>
+                </div>
         
     </div>
+    </section>
     </>
   )
 }
